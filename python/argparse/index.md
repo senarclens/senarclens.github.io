@@ -28,6 +28,8 @@ documentation can be found in the
 #!/usr/bin/python3
 
 import argparse
+import os
+
 parser = argparse.ArgumentParser()
 
 parser.add_argument('infile', nargs='+',
@@ -35,7 +37,7 @@ parser.add_argument('infile', nargs='+',
 parser.add_argument('--generate', action='store_true',
                     help='generate new instance and exit')
 parser.add_argument('--heuristic',
-                    choices=sorted(heuristic.heuristic.keys()),
+                    choices=('option_1', 'option_2', 'option_3'),
                     help='select the clustering heuristic to use')
 parser.add_argument('--no-color', action='store_true',
                     help='optimize visualization for gray scale printouts')
@@ -47,18 +49,18 @@ parser.add_argument('--outdir', default=os.curdir+os.sep,
                     help=('write all output files in this directory; '
                           'the given directory must exist and be writable '
                           '(default: {})'.format(os.curdir+os.sep)))
-parser.add_argument('--parkings', type=int, default=cfg.PARKINGS,
+parser.add_argument('--parkings', type=int, default=3,
                     metavar='n',
                     help=('every Nth input line is a parking '
                           '(only relevant for non-JSON input) '
-                          '(default: {})'.format(cfg.PARKINGS)))
+                          '(default: 3)'))
 parser.add_argument('-p', '--penalty', type=float,
-                    default=cfg.ATTRACTIVITY_PENALTY,
+                    default=0.0,
                     metavar='value',
                     help=('penalty for cluster attractiveness when adding '
                           'a customer requires more workers; '
                           'should be >= 1 '
-                          '(default: {})'.format(cfg.ATTRACTIVITY_PENALTY)))
+                          '(default: 0.0)'))
 
 args = parser.parse_args()
 print(args.infile)
