@@ -1,4 +1,10 @@
 # Introduction to KDE Neon (Linux) and Bash
+{::options toc_levels="2..6" /}
+
+## Contents
+{:.no_toc}
+
+* A markdown (kramdown) generated TOC.
 
 ## Installing Software
 You can use either of the graphical package managers. Depending on the configuration of your Debian-based Linux system, there may be `muon`, `plasma-discover`, `synaptic` or any other GUI tool installed. On the command-line you can use `apt` - the advanced package tool. In order to be able to change the system, you need to run the command as `root` user. In order to do so, preprend your installation commands with `sudo`.
