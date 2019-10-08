@@ -26,31 +26,30 @@ sudo pip3 install packagename
 
 | Command | Explanation |
 | ------- | ---------------------------------|
+| `cat` | concatenate files and print on the standard output |
 | `cd [dir]` | change the current directory to `dir` (defaults to `$HOME`) |
 | `cd -` | change to previous directory |
+| `clear` | clear the terminal screen |
 | `cp` | copy files and directories |
 | `chmod` | change permissions of a file |
+| `date` | print or set the system date and time |
+| `echo` | display a line of text |
+| `df -h` | report file system disk space usage |
+| `du -h` | estimate file space usage |
 | `dolphin` | file manager |
+| `grep -rin` | print lines matching a pattern |
+| `hostname` | show or set the system's host name |
 | `konsole` | terminal emulator |
 | `less` | opposite of more; read text files |
 | `ln -s` | make (soft) links between files |
 | `ls -lahR` | list directory contents |
 | `man` | an interface to the on-line reference manuals |
+| `mv` | move (rename) files |
+| `pwd` | print name of current/working directory |
 | `rm -r` | (recursively) remove files or directories |
 | `tar zcf archive.tar.gz [file...]` | create gzip compressed archive |
 | `whatis` | display one-line manual page descriptions |
-| `mv` | move (rename) files |
-| `pwd` | print name of current/working directory |
-| `echo` | display a line of text |
-| `cat` | concatenate files and print on the standard output |
-| `grep -rin` | print lines matching a pattern |
-| `clear` | clear the terminal screen |
-| `date` | print or set the system date and time |
-| `df -h` | report file system disk space usage |
-| `du -h` | estimate file space usage |
-| `hostname` | show or set the system's host name |
 | `whoami` | print effective userid |
-| `` |  |
 
 ## Shell Variables
 Examples include `$HOME`, `$HOSTNAME` and `$USER`.
@@ -76,9 +75,9 @@ Shortcut | Action
 `↑` | move up in history
 `↓` | move down in history
 `Ctrl+d` | end of input
+`Ctrl+l` | clear the terminal screen
 `Ctrl+r` | reverse incremental search through history
 `Esc-.`, `Alt+.` | recall the last argument of the previous command
-`Ctrl+l` | clear the terminal screen
 
 ## Configuration
 To define an alias use the `alias` command. For example, to create an alias called `i` that runs the `ipython3` shell, run
@@ -87,10 +86,16 @@ To define an alias use the `alias` command. For example, to create an alias call
 alias i=ipython3
 ```
 
-In order to persist this change, either put it into your `~/.profile` which
-is executed upon login or in your `~/.bashrc` which is executed when any
-new shell is started. If it is in your `~/.profile`, you either have to log
-in again or source the file via
+In order to persist this change, put it into your `~/.profile` which
+is executed upon login. Alternatively, you could add that line to
+your `~/.bashrc` which is executed when a new bash
+new shell is started. To add the line to your `~/.profile`, edit it
+with your favorite text editor, for example with
+```
+kate ~/.profile
+```
+To make the change available without logging in, you need to source the
+file via
 ```
 . ~/.profile
 ```
@@ -134,10 +139,20 @@ sure to have a `~/bin` directory.
 ```
 mkdir -p ~/bin
 ```
+In case the directory did not exist, you will have add it to your executabe
+`$PATH`.
+```
+PATH=~/bin:"${PATH}"
+```
 
-Then, create a link to your script there
+Then, create a link to your script
 
 ```
 cd ~/bin
 ln -s /path/to/your/script/filename.py
 ```
+Finally, you'll be able to run your script as executable program from anywhere
+in your filesystem.
+
+## Video Tutorial
+Finally, there exists a (somewhat outdated) video tutorial covering most of the content of this session: [Introduction to Linux for Beginning Software Development](https://www.youtube.com/watch?v=4cdRApK7RTQ).
