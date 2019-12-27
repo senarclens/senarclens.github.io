@@ -17,11 +17,14 @@ $ psql --user $USER --database $YOUR_DB
 
 In the `psql` shell, you have access to a series of special commands.
 
-`\\c dbname`
+`\c dbname`
 : Connect to given database.
 
-`\\l`
+`\h sql_command`
+: Get help for given SQL command.
+
+`\l`
 : List availables databases.
 
-`\\h sql_command`
-: Get help for given SQL command.
+`\! shell_command`
+: Execute the given command in the operating system's shell.
