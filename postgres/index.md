@@ -50,7 +50,7 @@ recommend not to store your password without second thoughts.
 For storing defaults, there are three options.
 The first is the use of environment variables.
 
-```sh
+```shell
 export PGHOST=localhost
 export PGPORT=5433
 export PGUSER=...
@@ -66,7 +66,7 @@ localhost:5433:databasename:username:password
 
 Finally, you can use the `.pg_service.conf` file which uses an ini like format.
 
-```
+```ini
 [example]
 host=localhost
 port=5432
@@ -99,9 +99,10 @@ The 'NATURAL` keyword is essentially a shorthand for `USING`. It joins two
 subsequent tables together on all the columns which have the same names in
 both tables. Hence
 * order matters
-* be careful if more than one column names are identical
+* be careful if multiple column names are identical
+
 The syntax is
-```
+```sql
 -- ...
 NATURAL JOIN other_table
 ```
