@@ -77,6 +77,7 @@ Shortcut | Action
 `Shift+F4` | open konsole (terminal emulator)
 
 ### Shell
+
 Shortcut | Action
 --- | ---
 `↑` | move up in history
