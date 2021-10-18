@@ -16,6 +16,11 @@ portable edition is available).
 | Command | Explanation |
 | ------- | ---------------------------------|
 | `init` | create an empty Git repository or reinitialize an existing one |
+| `status` | Show the working tree status |
+| `add` | Add file contents to the index |
+| `commit` | Record changes to the repository |
+| `push` | Update remote refs along with associated objects |
+| `diff` | Show changes between commits, commit and working tree, etc |
 
 An excellent overview over the available git commands is available as
 [git cheatsheet](https://ndpsoftware.com/git-cheatsheet.html).
