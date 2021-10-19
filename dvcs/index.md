@@ -21,6 +21,8 @@ portable edition is available).
 | `commit` | Record changes to the repository |
 | `push` | Update remote refs along with associated objects |
 | `diff` | Show changes between commits, commit and working tree, etc |
+| `log` | Show commit logs |
+| `clone` | Clone a repository into a new directory |
 
 An excellent overview over the available git commands is available as
 [git cheatsheet](https://ndpsoftware.com/git-cheatsheet.html).
