@@ -25,3 +25,12 @@ portable edition is available).
 
 An excellent overview over the available git commands is available as
 [git cheatsheet](https://ndpsoftware.com/git-cheatsheet.html).
+
+## Branching Models
+Which branching models is to be preferred depends on the needs of an
+organization or of a development team. I genereally recommend to keep things
+simple. Here are some of the most prevalent models:
+
+* [GitHub flow](https://guides.github.com/introduction/flow/)
+* [GitLab flow](https://docs.gitlab.com/ee/topics/gitlab_flow.html)
+* [Gitflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
