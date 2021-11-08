@@ -23,6 +23,7 @@ portable edition is available).
 | `diff` | Show changes between commits, commit and working tree, etc |
 | `log` | Show commit logs |
 | `clone` | Clone a repository into a new directory |
+| `pull` | Fetch from and integrate with another repository or a local branch |
 
 An excellent overview over the available git commands is available as
 [git cheatsheet](https://ndpsoftware.com/git-cheatsheet.html).
