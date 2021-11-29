@@ -23,6 +23,16 @@ portable edition is available).
 | `diff` | Show changes between commits, commit and working tree, etc |
 | `clone` | Clone a repository into a new directory |
 
+## Generate SSH-key
+ssh-keygen  
+navigate to "/cygdrive/c/Users/[USERNAME]/.ssh"  
+less id_rsa.pub  
+copy key  
+github profil -> settings -> SSH and GPG keys  
+click on "New SSH key"  
+paste key  
+click on "Add SSH key"  
+
 An excellent overview over the available git commands is available as
 [git cheatsheet](https://ndpsoftware.com/git-cheatsheet.html).
 
