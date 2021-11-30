@@ -58,6 +58,9 @@ sudo pip3 install packagename
 | `whatis` | display one-line manual page descriptions |
 | `whoami` | print effective userid |
 
+An excellent tool for explaining complex linux commands is 
+[explainshell.com](https://explainshell.com/).
+
 ## Shell Variables
 Examples include `$HOME`, `$HOSTNAME` and `$USER`.
 
