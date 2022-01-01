@@ -84,13 +84,13 @@ Shortcut | Action
 After activating the command palette via `F1` (see shortcuts above), you
 can use, among others, the following commands.
 
-Command |
----
-`Toggle Line Comment` 
-`Emmet: Wrap with Abbreviation`
-`Emmet: Expand Abbreviation`
+| Command |
+| --- |
+| `Toggle Line Comment` |
+| `Emmet: Wrap with Abbreviation` |
+| `Emmet: Expand Abbreviation` |
 
-python file with addon 
+
 ## Configuration
 To open the full configuration as JSON file, open the command palette via `F1`
 and type `Preferences: Open Settings (JSON)`. To access the settings user
