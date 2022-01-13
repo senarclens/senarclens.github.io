@@ -32,23 +32,27 @@ registry used by VSCodium. If you cannot find an extension there, download its
 | Vim | VSCodeVim is a Vim emulator for Visual Studio Code |
 
 ### LaTeX
+
 | Addon | Explanation |
 | ----- | ----------- |
 | LaTeX Workshop | Boost LaTeX typesetting efficiency with preview, compile, autocomplete, colorize, and more. |
 
 ### Python
+
 | Addon | Explanation |
 | ----- | ----------- |
 | [Pico-Go](https://marketplace.visualstudio.com/items?itemName=ChrisWood.pico-go) | Autocompletion and a REPL console for the Raspberry Pi Pico. |
 | Python | IntelliSense (Pylance), Linting, Debugging (multi-threaded, remote), Jupyter Notebooks, code formatting, refactoring, ... |
 
 ### Template Engines
+
 | Addon | Explanation |
 | ----- | ----------- |
 | Better Jinja | Syntax highlighting for jinja(2) including HTML, Markdown, YAML, Ruby and LaTeX templates |
 | [Nunjucks Template](https://marketplace.visualstudio.com/items?itemName=eseom.nunjucks-template) | Formatting, Syntax Highlighting, Hover, and Snippets for Nunjucks |
 
 ### Web Development
+
 | Addon | Explanation |
 | ----- | ----------- |
 | Babel JavaScript | VSCode syntax highlighting for today's JavaScript |
@@ -59,6 +63,7 @@ registry used by VSCodium. If you cannot find an extension there, download its
 [//]: # (| Code Runner |  |)
 
 ## Shortcuts
+
 Shortcut | Action
 -------- | ------
 `Ctrl+p` | Search files by name
