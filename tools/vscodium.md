@@ -10,7 +10,9 @@ VSCodium is the name of Open Source Software Binaries of VS Code, a very powerfu
 
 ## Installation
 VSCodium can be installed from https://vscodium.com/. Please follow the
-instructions provided for your platform.
+instructions provided for your platform. If you do not have administrative
+privileges on your computer, resort to a
+[portable installation](https://portapps.io/app/vscodium-portable/) instead.
 
 ## Addons
 After completing the setup, install addons to facilitate your tasks.
