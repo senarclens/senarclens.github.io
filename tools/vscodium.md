@@ -60,9 +60,8 @@ registry used by VSCodium. If you cannot find an extension there, download its
 | Babel JavaScript | VSCode syntax highlighting for today's JavaScript |
 | CSS Peek | Allow peeking to css ID and class strings as definitions from html files to respective CSS. |
 | ESLint | Integrates ESLint JavaScript into VS Code. |
+| Live Server | Launch a development local Server with live reload feature for static & dynamic pages. |
 
-
-[//]: # (| Code Runner |  |)
 
 ## Shortcuts
 
