@@ -1,4 +1,4 @@
-# Distributed Version Control with Git
+# Distributed Version Control
 
 ## Installation
 Using a Debian-based Linux distribution, type
