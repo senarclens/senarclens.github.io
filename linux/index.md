@@ -1,4 +1,4 @@
-# Introduction to KDE Neon (Linux) and Bash
+# Linux (KDE Neon)
 {::options toc_levels="2..6" /}
 
 ## Contents
@@ -29,7 +29,7 @@ python)
 sudo pip3 install packagename
 ```
 
-## Selected Commands
+## Selected Shell Commands
 
 | Command | Explanation |
 | ------- | ---------------------------------|

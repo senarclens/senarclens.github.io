@@ -1,4 +1,4 @@
-# Introduction to PostgreSQL
+# PostgreSQL
 {::options toc_levels="2..6" /}
 
 ## Contents
