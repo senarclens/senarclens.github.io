@@ -1,6 +1,6 @@
 # Notes
 
-{% include list.liquid %}
+{% include list.liquid all=true %}
 
 <!-- * [Distributed Version Control](dvcs/)
 * [Jupyter Notebooks](jupyter/)
