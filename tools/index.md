@@ -1,3 +1,3 @@
 # Notes
 
-* [VSCodium](vscodium.html)
+{% include list.liquid %}
