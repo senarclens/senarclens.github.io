@@ -20,6 +20,24 @@ Make sure to select `pip` to be installed as well and that Python will be
 available through your operating systems `PATH` variable. You might need to
 select these from advanced options during the installation.
 
+Usually, Python will be available as `py` in the Windows terminal. If you
+do not want to add the relevant directories to your `PATH` variable, it should
+be possible to run `py` whenever `python` is executed here and
+`py -m name` when a Python program (like `pip`) is executed. That means,
+for example, instead of writing
+
+```
+pip install --user --upgrade pip
+```
+
+you should be able to write
+
+```
+py -m pip install --user --upgrade pip
+```
+
+on Windows, even without adding the relevant directories to your `PATH`.
+
 ## Installing Packages
 When installing packages, always make sure to upgrade `pip` first.
 
