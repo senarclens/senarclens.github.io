@@ -43,7 +43,8 @@ When installing packages, always make sure to upgrade `pip` first.
 
     pip install --user --upgrade pip
 
-When `pip` is up to date, install the packages you desire
+When `pip` is up to date, install the packages you desire (for example,
+`numpy`, `pandas` and `jupyterlab`).
 
     pip install --user --upgrade numpy pandas jupyterlab
 
