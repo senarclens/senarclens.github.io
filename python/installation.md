@@ -15,10 +15,15 @@ Most likely, you also want install
 This allows you to use `python` and `pip` in lieu of `python3` and `pip3`.
 
 ## Windows
-On Windows, download and install Python from https://www.python.org/downloads/
+On Windows, download and install Python from
+[python.org](https://www.python.org/downloads/).
 Make sure to select `pip` to be installed as well and that Python will be
 available through your operating systems `PATH` variable. You might need to
 select these from advanced options during the installation.
+
+If you already have a working installation of Python, but still require `pip`,
+follow the instructions for
+<a href="https://pip.pypa.io/en/stable/installation/#python">installing pip</a>.
 
 Usually, Python will be available as `py` in the Windows terminal. If you
 do not want to add the relevant directories to your `PATH` variable, it should
