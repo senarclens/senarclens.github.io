@@ -25,8 +25,10 @@ portable edition is available).
 | `pull` | Fetch from and integrate with another repository or a local branch |
 | `clone` | Clone a repository into a new directory |
 
-An excellent overview over the available git commands is available as
-[git cheatsheet](https://ndpsoftware.com/git-cheatsheet.html).
+## Git Cheatsheet
+A great overview of the structure of git workflows and their associated
+commands is available as
+[Git Cheatsheet](https://ndpsoftware.com/git-cheatsheet.html).
 
 ## Generate and Upload SSH-key
 
