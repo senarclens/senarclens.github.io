@@ -43,6 +43,10 @@ Copy the key and paste it in your
 GitHub (Settings → SSH and GPG keys → New SSH key) or
 GitLab (Preferences → SSH Keys) profile.
 
+## Git Hosting Platforms
+
+* [GitHub](https://github.com)</a>
+* [GitLab](https://gitlab.com/)</a>
 
 ## Branching Models
 Which branching models is to be preferred depends on the needs of an
