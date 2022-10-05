@@ -1,3 +1,3 @@
-# MariaDB / MySQL Administration
+# MariaDB / MySQL
 
 {% include list.liquid %}

@@ -1,3 +1,3 @@
-## SQL
+# SQL
 
 {% include list.liquid %}
