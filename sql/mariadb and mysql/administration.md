@@ -18,8 +18,11 @@ or use the
 [XAMPP](https://sourceforge.net/projects/xampp/files/) package.
 
 ## Login
-```
+Depending on the version and installation settings, logging in to the
+freshly installed database server can be done with either of the following
+```bash
 mysql [-h hostname]-u root -p
+sudo mysql  # if the above does not work
 ```
 
 ## Logout
@@ -33,4 +36,10 @@ exit;
 create database DB_NAME;
 show databases;
 drop database DB_NAME;
+```
+
+## User Administration
+```sql
+create user '$USER'@'localhost' identified by '$PASSWORD';
+grant all privileges on $DATABASE.* to '$USER'@'localhost';
 ```
