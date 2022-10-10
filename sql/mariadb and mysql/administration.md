@@ -32,10 +32,11 @@ exit;
 
 ## Database Administration
 
-```
-create database DB_NAME;
+```sql
+create database $DB_NAME;
 show databases;
-drop database DB_NAME;
+use $DB_NAME;  -- start working with this database
+drop database $DB_NAME;
 ```
 
 ## User Administration
