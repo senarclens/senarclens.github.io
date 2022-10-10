@@ -44,3 +44,24 @@ drop database $DB_NAME;
 create user '$USER'@'localhost' identified by '$PASSWORD';
 grant all privileges on $DATABASE.* to '$USER'@'localhost';
 ```
+
+## Table Administration
+After logging in and selecting a database, one can create, change and
+remove database relations (tables).
+
+```sql
+create table $TABLE_NAME (
+  -- column definitions
+);
+show tables;
+describe table $TABLE_NAME;
+alter table $TABLE_NAME ...;
+drop table $TABLE_NAME;
+```
+More information on
+* [data types](https://mariadb.com/kb/en/data-types/)
+* [create table](https://mariadb.com/kb/en/create-table/)
+* [alter table](https://mariadb.com/kb/en/alter-table/)
+
+A comprehensive example can be found on
+[Wikiversity](https://en.wikiversity.org/wiki/Database_Examples).
