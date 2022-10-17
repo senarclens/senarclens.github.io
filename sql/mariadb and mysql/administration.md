@@ -21,7 +21,7 @@ or use the
 Depending on the version and installation settings, logging in to the
 freshly installed database server can be done with either of the following
 ```bash
-mysql [-h hostname]-u root -p
+mysql [-h hostname] -u root -p
 sudo mysql  # if the above does not work
 ```
 
