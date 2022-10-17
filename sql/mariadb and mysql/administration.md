@@ -42,7 +42,7 @@ drop database $DB_NAME;
 ## User Administration
 ```sql
 create user '$USER'@'localhost' identified by '$PASSWORD';
-grant all privileges on $DATABASE.* to '$USER'@'localhost';
+grant all privileges on $DB_NAME.* to '$USER'@'localhost';
 ```
 
 ## Table Administration
