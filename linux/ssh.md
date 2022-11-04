@@ -26,7 +26,7 @@ tar xf main.tar.gz
 ## Editing Files
 
 There are many text editors available on the Linux shell. These include
-GNU `nano`, `vi`, `vim`, `emacs`, `jed` and `micro`. To edit a file, type the
+`emacs`, `jed`, `micro`, `nano`, `vi` and `vim`. To edit a file, type the
 name of the editor followed by the name of the file. For example
 
 ```bash
