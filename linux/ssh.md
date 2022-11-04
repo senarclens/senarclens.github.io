@@ -32,7 +32,7 @@ name of the editor followed by the name of the file. For example
 ```bash
 micro infile.c
 ```
-For beginner's, I recommend using `micro` as it is easy to use, yet powerful.
+For beginners, I recommend using `micro` as it is easy to use, yet powerful.
 Using the key combination `Alt-g` (as shown in the bottom right) opens a
 little help menu. Like many modern GUI programs, `Ctrl-s` saves a file and
 `Ctrl-q` closes the current tab / window.
