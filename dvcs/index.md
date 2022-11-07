@@ -7,7 +7,7 @@ Using a Debian-based Linux distribution, type
 sudo apt install git git-gui git-cola
 ```
 
-to install git and two different GUI frontends. If you're on Windows,
+to install git and two different GUI front-ends. If you're on Windows,
 download `git` from [git-scm.com](https://git-scm.com/download/win) (a
 portable edition is available).
 
@@ -25,10 +25,10 @@ portable edition is available).
 | `pull` | Fetch from and integrate with another repository or a local branch |
 | `clone` | Clone a repository into a new directory |
 
-## Git Cheatsheet
+## Git Cheat Sheet
 A great overview of the structure of git workflows and their associated
 commands is available as
-[Git Cheatsheet](https://ndpsoftware.com/git-cheatsheet.html).
+[cheat sheet](https://ndpsoftware.com/git-cheatsheet.html).
 
 ## Generate and Upload SSH-key
 
@@ -45,12 +45,12 @@ GitLab (Preferences → SSH Keys) profile.
 
 ## Git Hosting Platforms
 
-* [GitHub](https://github.com)</a>
-* [GitLab](https://gitlab.com/)</a>
+* [GitHub](https://github.com)
+* [GitLab](https://gitlab.com/)
 
 ## Branching Models
 Which branching models is to be preferred depends on the needs of an
-organization or of a development team. I genereally recommend to keep things
+organization or of a development team. I generally recommend to keep things
 simple. Here are some of the most prevalent models:
 
 * [GitHub flow](https://guides.github.com/introduction/flow/)
