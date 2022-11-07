@@ -55,6 +55,7 @@ create table $TABLE_NAME (
 );
 show tables;
 describe table $TABLE_NAME;
+show create table $TABLE_NAME;
 alter table $TABLE_NAME ...;
 drop table $TABLE_NAME;
 ```
@@ -62,6 +63,7 @@ More information on
 * [data types](https://mariadb.com/kb/en/data-types/)
 * [create table](https://mariadb.com/kb/en/create-table/)
 * [alter table](https://mariadb.com/kb/en/alter-table/)
+* [foreign keys](https://mariadb.com/kb/en/foreign-keys/)
 
 A comprehensive example can be found on
 [Wikiversity](https://en.wikiversity.org/wiki/Database_Examples).
