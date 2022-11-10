@@ -32,12 +32,13 @@ commands is available as
 
 ## Generate and Upload SSH-key
 
-`ssh-keygen -t ed25519  # omitting the type leads an RSA key being generated`
+`ssh-keygen -t ed25519  # omitting the type would generate an RSA key`
 
+When being prompted for the filename, leave the default value.
 Navigate to `~/.ssh/` (on Linux) resp. `/cygdrive/c/Users/[USERNAME]/.ssh`
-(on Windows).
+(on Windows). Print the key to standard output via
 
-`cat id_rsa.pub`
+`cat id_ed25519.pub`
 
 Copy the key and paste it in your
 GitHub (Settings → SSH and GPG keys → New SSH key) or
