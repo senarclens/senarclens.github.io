@@ -1,7 +1,7 @@
 # Create, read, update and delete
 
 Create, read, update, and delete (CRUD) are the four basic operations of
-persistent storage. The major ooperations which are implemented by databases
+persistent storage. The major operations which are implemented by databases
 are also referred to as CRUD. Each letter in the acronym can be mapped to a
 standard SQL statement.
 
