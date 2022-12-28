@@ -1,6 +1,4 @@
----
-presentations: https://study.find-santa.eu/presentations/c/
----
+{% assign presentations = "https://study.find-santa.eu/presentations/c/" %}
 
 # Introduction to Programming in C
 
@@ -20,13 +18,13 @@ code. As a student of HTL Bulme, you may use the provided
 The following interactive presentations provide a good starting point for
 self-study as well.
 
-{% comment %}[]({{ page.presentations }}/){% endcomment %}
-[Working with Text]({{ page.presentations }}strings/)
-[Typedef and Structs - Composite Data Types]({{ page.presentations }}structs/)
-[Pointers]({{ page.presentations }}pointers/)
-[Working with Multiple Files]({{ page.presentations }}multiple_files/)
-[Dynamic Memory Management]({{ page.presentations }}dynamic_memory_management/)
-[File I/O]({{ page.presentations }}file_io/)
-[Commandline Arguments]({{ page.presentations }}cli/)
-[Function Pointer]({{ page.presentations }}function_pointer/)
-[Data Structures and Algorithms in C - Introduction]({{ page.presentations }}algorithms/introduction_to_algorithms/)
+{% comment %}* []({{ presentations }}/){% endcomment %}
+* [Working with Text]({{ presentations }}strings/)
+* [Typedef and Structs - Composite Data Types]({{ presentations }}structs/)
+* [Pointers]({{ presentations }}pointers/)
+* [Working with Multiple Files]({{ presentations }}multiple_files/)
+* [Dynamic Memory Management]({{ presentations }}dynamic_memory_management/)
+* [File I/O]({{ presentations }}file_io/)
+* [Commandline Arguments]({{ presentations }}cli/)
+* [Function Pointer]({{ presentations }}function_pointer/)
+* [Data Structures and Algorithms in C - Introduction]({{ presentations }}algorithms/introduction_to_algorithms/)
