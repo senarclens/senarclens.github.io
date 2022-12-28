@@ -18,7 +18,8 @@ code. As a student of HTL Bulme, you may use the provided
 The following interactive presentations provide a good starting point for
 self-study as well.
 
-{% comment %}* []({{ presentations }}/){% endcomment %}
+* [Introduction]({{ presentations }}introduction/)
+* [Fast Track to C Syntax for Programmers]({{ presentations }}fast_track/)
 * [Working with Text]({{ presentations }}strings/)
 * [Typedef and Structs - Composite Data Types]({{ presentations }}structs/)
 * [Pointers]({{ presentations }}pointers/)
@@ -27,4 +28,5 @@ self-study as well.
 * [File I/O]({{ presentations }}file_io/)
 * [Commandline Arguments]({{ presentations }}cli/)
 * [Function Pointer]({{ presentations }}function_pointer/)
+* [Unit Testing]({{ presentations }}unit_testing/)
 * [Data Structures and Algorithms in C - Introduction]({{ presentations }}algorithms/introduction_to_algorithms/)
