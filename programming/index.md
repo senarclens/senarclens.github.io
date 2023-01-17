@@ -1,6 +1,9 @@
 # Programming Notes
 
-The best way to learn programming is to write code. Have fun!
+The best way to learn programming is to write code. The following sites
+offer lots of different programming challanges. Chose one of the sites, sign
+up (you can use your GitHub account for single sign on) and get coding.
+Have fun!
 
 <!-- 
 test the following sites and add them if they are good and essentially ad-free
