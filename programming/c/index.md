@@ -1,6 +1,6 @@
-{% assign presentations = "https://study.find-santa.eu/presentations/c/" %}
-
 # Introduction to Programming in C
+
+{% assign presentations = "https://study.find-santa.eu/presentations/c/" %}
 
 To get started, I recommend working through Jens Gustedt's
 [Modern C](https://gustedt.gitlabpages.inria.fr/modern-c/) **textbook**. It is
