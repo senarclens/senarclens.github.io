@@ -1,4 +1,4 @@
-# Using SSH to Work With Remote Files
+# Copying Files with SSH (`scp` and `sshfs`)
 
 Files can be copied securely back and forth between computers using the `scp`
 command.
