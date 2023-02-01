@@ -68,7 +68,7 @@ registry used by VSCodium. If you cannot find an extension there, download its
 Shortcut | Action
 -------- | ------
 `Ctrl+p` | Search files by name
-`Ctrl+p` `#` | Go to symbol in workspace
+`Ctrl+p` `#` (`@`) | Go to symbol (in workspace)
 `Ctrl+Shift+P`, `F1`, `Ctrl+p` `>` | Command Palette
 ``Crtl+` `` | Toggle Terminal
 `Ctrl+Tab` | Switch between open documents
