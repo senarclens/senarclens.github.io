@@ -20,7 +20,7 @@ ssh firstname.lastname@sandbox.bulme.at
 To set this up, edit (create if it doesn't exist) the file
 `~/.ssh/config` and append the following
 
-```ssh config
+```ssh-config
 Host sandbox
   HostName sandbox.bulme.at
   User firstname.lastname
