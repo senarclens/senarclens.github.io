@@ -32,3 +32,11 @@ clang++ hello_wx.cpp `wx-config --cxxflags --libs` -o hello_wx
 Start your first GUI application by typing `./hello_wx`.
 
 ![wxWidgets hello world application](images/hello_wx.png)
+
+# Compile with GNU Make
+wxWidgets files can, of course, also be compiled with GNU Make. Use the
+source below as an example
+```Makefile
+{% include_relative Makefile %}
+```
+Download the above template [Makefile](Makefile).
