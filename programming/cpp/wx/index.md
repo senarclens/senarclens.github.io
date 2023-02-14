@@ -1,4 +1,4 @@
-# [WIP] Introduction to wxWidgets
+# Introduction to wxWidgets
 {% assign wx = "https://docs.wxwidgets.org/latest/" %}
 {% assign gh = "https://github.com/wxWidgets/wxWidgets" %}
 
