@@ -36,7 +36,7 @@ Start your first GUI application by typing `./hello_wx`.
 # Compile with GNU Make
 wxWidgets files can, of course, also be compiled with GNU Make. Use the
 source below as an example
-```Makefile
+```make
 {% include_relative Makefile %}
 ```
 Download the above template [Makefile](Makefile).
