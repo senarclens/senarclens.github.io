@@ -31,4 +31,4 @@ clang++ hello_wx.cpp `wx-config --cxxflags --libs` -o hello_wx
 
 Start your first GUI application by typing `./hello_wx`.
 
-![Install from VSIX](images/hello_wx.png)
+![wxWidgets hello world application](images/hello_wx.png)
