@@ -21,6 +21,7 @@ self-study as well.
 
 * [Introduction]({{ presentations }}introduction/)
 * [Fast Track to C Syntax for Programmers]({{ presentations }}fast_track/)
+* [Arrays]({{ presentations }}arrays/)
 * [Working with Text]({{ presentations }}strings/)
 * [Typedef and Structs - Composite Data Types]({{ presentations }}structs/)
 * [Pointers]({{ presentations }}pointers/)
