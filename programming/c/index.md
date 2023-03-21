@@ -29,6 +29,6 @@ self-study as well.
 * [Dynamic Memory Management]({{ presentations }}dynamic_memory_management/)
 * [File I/O]({{ presentations }}file_io/)
 * [Commandline Arguments]({{ presentations }}cli/)
-* [Function Pointer]({{ presentations }}function_pointer/)
+* [Function Pointers]({{ presentations }}function_pointers/)
 * [Unit Testing]({{ presentations }}unit_testing/)
 * [Data Structures and Algorithms in C - Introduction]({{ presentations }}algorithms/introduction_to_algorithms/)
