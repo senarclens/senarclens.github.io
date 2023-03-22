@@ -1,5 +1,7 @@
 # Distributed Version Control
 
+{% include list.liquid %}
+
 ## Installation
 Using a Debian-based Linux distribution, type
 
