@@ -4,7 +4,8 @@
 
 To get started, I recommend working through Jens Gustedt's
 [Modern C](https://gustedt.gitlabpages.inria.fr/modern-c/) **textbook**. It is
-available online, free of charge, or can bought in any decend bookshop.
+available online, free of charge, or can bought in any decend bookshop
+(e.g. on [Amazon](https://amzn.to/3JPx5KT)).
 The [C Reference Card (ANSI)](c-refcard.pdf) gives a good overview of ANSI-C.
 
 If you prefer watching **video tutorials** rather than working through a book,
