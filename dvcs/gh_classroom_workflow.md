@@ -18,3 +18,7 @@ When accepting a programming assignment, the following workflow is required:
   `git commit -m '$YOUR_COMMIT_MESSAGE'`
 * upload your new change snapshots (commits) to the classroom platform
   `git push`
+
+For further information on using distributed version control with git, see the
+[overview page on DVCs](./) or the
+[git cheat sheet](https://ndpsoftware.com/git-cheatsheet.html).
