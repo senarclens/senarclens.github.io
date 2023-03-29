@@ -1,4 +1,4 @@
-# [WIP] Introduction to Programming in C++
+# Introduction to Programming in C++
 
 {% assign presentations = "https://study.find-santa.eu/presentations/cpp/" %}
 
