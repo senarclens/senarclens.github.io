@@ -80,3 +80,30 @@ able to use that private key without entering any password. You can hence
 log in to or use `scp` and `sshfs` as you desire without entering a password.
 This will work for all servers having received your public key via
 `ssh-copy-id` as outlined above.
+
+### Using `ssh-agent` on a Server
+On Linux clients with a desktop environment, `ssh-agent` is usually
+automatically started when the user logs in. This happens eg. in
+`/etc/X11/Xsession.d/90x11-common_ssh-agent` or a similar script.
+
+On systems without X11, the agent is usually not automatically started when
+logging in. In such cases, the user can start the agent via
+
+```shell
+eval `ssh-agent`
+```
+
+Make sure to run the command exactly as above so that the output will be
+executed as well. This is done to export required environment variables.
+
+After the agent has been started with the above command, `ssh-add` should
+work as expected.
+
+Finally, make sure to terminate the agent when you log out:
+
+```shell
+kill $SSH_AGENT_PID
+```
+
+To avoid forgetting this, you can add this command to your shell's logout
+script (eg. `.bash_logout` when using the bash shell).
