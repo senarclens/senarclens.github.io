@@ -32,3 +32,6 @@ self-study as well.
 TODO:
 * unit testing w/ googletest / catch2
 {% endcomment %}
+
+## Table of Contents
+{% include list.liquid all=true %}
