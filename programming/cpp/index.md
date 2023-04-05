@@ -4,7 +4,7 @@
 
 To get started, I recommend working through the free
 [Learn C++](https://www.learncpp.com/) online tutorial. Note that there
-are a lot of advertisments if you aren't using an ad blocker.
+are a lot of advertisements if you aren't using an ad blocker.
 If you want to invest in an excellent C++ book, I recommend buying
 [Programming: Principles and Practice Using C++](https://amzn.to/40EaSX2)
 by Bjarne Stroustrup, the designer and original creator of C++.
