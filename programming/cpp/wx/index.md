@@ -10,7 +10,7 @@ wxWidgets is completely open source using the
 [wxWidgets licence]({{ gh }}/blob/master/docs/licence.txt) which is
 a more liberal version of the LGPL (allowing distribution without the source
 code). It is very
-[actively developed]({{ gh }}//pulse/monthly) and maintained and has good
+[actively developed]({{ gh }}/pulse/monthly) and maintained and has good
 support for all common programming environments. The source code is available
 on the project's [Github page]({{ gh }}).
 
