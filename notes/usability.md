@@ -31,5 +31,5 @@ which is an open source vector graphics
 editor using SVG. It has a steep learning curve, but is very
 powerful.
 
-Proprietary tools include https://www.figma.com/ and
-https://balsamiq.com - both offering SaaS solutions.
+Proprietary tools include [Figma](https://www.figma.com/) and
+[Balsamiq](https://balsamiq.com) - both offering SaaS solutions.
