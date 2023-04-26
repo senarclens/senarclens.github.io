@@ -28,7 +28,7 @@ On my system, the above yields
 
 The first two lines add the paths (after `-I`) to the list of directories
 to be searched for header files. The lines starting with `-D` are preprocessor
-definitions and get processed as if they appeared during translation
+macro definitions and get processed as if they appeared during translation
 in a `#define` directive.
 
 ## KDevelop
@@ -41,3 +41,39 @@ To configure an existing KDevelop project
 
 Make sure not to copy the values from my system but use the output created by  
 `wx-config --cxxflags` on your own system.
+
+The configuration is stored per project in the `.kdev` subdirectory.
+Note that you have to set up this configuration manually in every wx project
+when using Kdevelop.
+
+
+## Generic Editors
+To avoid errors about missing wx headers in most editors, you may want to
+configure your shell's `CPLUS_INCLUDE_PATH` variable. This variable holds
+additional include paths to be searched for header files. Add the paths
+presented by `wx-config --cxxflags` to it, separated by a colon (`:`). In my
+environment, this would be the appropriate command
+
+```shell
+export CPLUS_INCLUDE_PATH=${CPLUS_INCLUDE_PATH}:/usr/include/wx-3.0:/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0
+```
+
+However, the above only affects the current shell and is not persisted.
+To make the change persistent, edit your shell's login configuration. In case
+of the bash shell, this configuration resides in `~/.profile`. Append the
+following to it (but make sure to set the variables `GTK3_UNICODE` and
+`WX` to match your system's output of `wx-config --cxxflags`).
+
+```bash
+# add libs to CPLUS_INCLUDE_PATH if they are installed
+GTK3_UNICODE="/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0"
+if [ -d "${GTK3_UNICODE}" ] ; then
+  CPLUS_INCLUDE_PATH="${CPLUS_INCLUDE_PATH}:${GTK3_UNICODE}"
+fi
+WX="/usr/include/wx-3.0"
+if [ -d "${WX}" ] ; then
+  CPLUS_INCLUDE_PATH="${CPLUS_INCLUDE_PATH}:${WX}"
+fi
+export CPLUS_INCLUDE_PATH
+
+```
