@@ -27,11 +27,8 @@ self-study as well.
 * [OOP - Structs (Composite Data Types)]({{ presentations }}oop/structs/)
 * [OOP - Classes and Encapsulation]({{ presentations }}oop/classes/)
 * [Operator Overloading]({{ presentations }}operator_overloading/)
+* [Unit Testing (Catch2)]({{ presentations }}unit_testing_catch2/)
+* [Unit Testing (Google Test)]({{ presentations }}unit_testing_gtest/)
 
-{% comment %}
-TODO:
-* unit testing w/ googletest / catch2
-{% endcomment %}
-
-## Table of Contents
+## Special Topics
 {% include list.liquid all=true %}
