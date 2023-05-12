@@ -37,5 +37,5 @@ git clone git@gitlab.com:senarclens/micropython-examples.git
 
 ## Links
 * [Wokwi RP Pico simulator](https://wokwi.com/arduino/new?template=micropython-pi-pico)
-* [MicroPython firmware for various microcontroller ports](https://micropython.org/download/)
+* [MicroPython firmware for various microcontroller boards](https://micropython.org/download/)
 * [RP Pico Documentation (specification, MicroPython and C/C++ SDK)](https://www.raspberrypi.com/documentation/microcontrollers/raspberry-pi-pico.html)
