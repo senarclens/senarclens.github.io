@@ -21,7 +21,7 @@ you can use the
 ## Raspberry Pi Pico (RP2040)
 To install MicroPython on your Raspberry Pi Pico, follow the
 [relevant instructions on
-raspberripi.com](https://www.raspberrypi.com/documentation/microcontrollers/micropython.html#drag-and-drop-micropython).
+raspberrypi.com](https://www.raspberrypi.com/documentation/microcontrollers/micropython.html#drag-and-drop-micropython).
 
 [![Raspberry Pi Pico Pinout](https://www.raspberrypi.com/documentation/microcontrollers/images/pico-pinout.svg)](https://www.raspberrypi.com/documentation/microcontrollers/images/pico-pinout.svg)
 [Raspberry Pi Pico Pinout (svg)](https://www.raspberrypi.com/documentation/microcontrollers/images/pico-pinout.svg),
