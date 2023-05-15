@@ -33,10 +33,24 @@ Start your first GUI application by typing `./hello_wx`.
 
 ![wxWidgets hello world application](images/hello_wx.png)
 
-# Compile with GNU Make
+## Compile with GNU Make
 wxWidgets files can, of course, also be compiled with GNU Make. Use the
 source below as an example
 ```make
 {% include_relative Makefile %}
 ```
 Download the above template [Makefile](Makefile).
+
+
+## Examples
+There are a series of high quality examples available directly in the
+[wxWidgets documentation](https://docs.wxwidgets.org/3.0/page_samples.html).
+These examples can be installed via
+
+```shell
+sudo apt install wx3.0-examples
+```
+
+In addition, you can find tested, working example code in the
+[C++ wxWidgets Examples](https://gitlab.com/htl-bulme/cpp_wx_examples/)
+repository.
