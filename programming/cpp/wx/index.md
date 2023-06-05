@@ -41,6 +41,26 @@ source below as an example
 ```
 Download the above template [Makefile](Makefile).
 
+## Compile with CMake
+While GNU Make is a great build system for learning and understanding how
+build files work, Makefiles quickly get complicated and have portability
+issues between operating systems. Hence, I recommend using CMake for
+generating the build files for `make` or `ninja`.
+
+```cmake
+{% include_relative CMakeLists.txt %}
+```
+Download the above template [CMakeLists.txt](CMakeLists.txt).
+
+CMake allows creating out of source builds. This is usually done by your IDE.
+On the command-line, within your project directory, you'd have to
+type
+```shell
+mkdir -p build && cd build
+cmake ..
+make -j8  # -j defines the number of cores to use for compilation
+```
+You binary can then be found in the above created `build` directory.
 
 ## Examples
 There are a series of high quality examples available directly in the
