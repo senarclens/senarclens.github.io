@@ -2,6 +2,12 @@
 {% assign wx = "https://docs.wxwidgets.org/latest/" %}
 {% assign gh = "https://github.com/wxWidgets/wxWidgets" %}
 
+## Contents
+{:.no_toc}
+* A markdown (kramdown) generated TOC.
+{:toc}
+
+## Getting Started with wxWidgets
 [wxWidgets](https://www.wxwidgets.org/) is a leightweight GUI toolkit that is
 primarily targeted for C++
 but is also available for other languages including Python. It gives
@@ -33,7 +39,7 @@ Start your first GUI application by typing `./hello_wx`.
 
 ![wxWidgets hello world application](images/hello_wx.png)
 
-## Compile with GNU Make
+## Compiling wxWidgets Programs with GNU Make
 wxWidgets files can, of course, also be compiled with GNU Make. Use the
 source below as an example
 ```make
@@ -41,7 +47,7 @@ source below as an example
 ```
 Download the above template [Makefile](Makefile).
 
-## Compile with CMake
+## Compiling wxWidgets Programs with CMake
 While GNU Make is a great build system for learning and understanding how
 build files work, Makefiles quickly get complicated and have portability
 issues between operating systems. Hence, I recommend using CMake for
@@ -62,7 +68,7 @@ make -j8  # -j defines the number of cores to use for compilation
 ```
 You binary can then be found in the above created `build` directory.
 
-## Examples
+## wxWidgets Example Programs
 There are a series of high quality examples available directly in the
 [wxWidgets documentation](https://docs.wxwidgets.org/3.0/page_samples.html).
 These examples can be installed via
