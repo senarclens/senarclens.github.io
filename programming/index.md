@@ -23,7 +23,7 @@ substantial projects, have a look at
 * [Best Open Source Programs For Students to Participate](https://www.geeksforgeeks.org/best-open-source-programs-for-students-to-participate/)
 
 Particularly the latter gives good starting points that may even be used for
-final year projects. Also, recruites in IT companies will be impressed
+final year projects. Also, recruiters in IT companies will be impressed
 if you have a successful portfolio of open source contributions!
 
 {% include list.liquid %}
