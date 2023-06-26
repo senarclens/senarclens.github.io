@@ -2,6 +2,9 @@
 
 {% include list.liquid %}
 
+To seriously get into git, I recommend working through the
+"[git book](https://git-scm.com/book/en/v2)".
+
 ## Installation
 Using a Debian-based Linux distribution, type
 

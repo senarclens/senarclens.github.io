@@ -1,4 +1,4 @@
-# Git-based Programming Assignments
+# Git-based Programming Assignments Cheat Sheet
 
 When accepting a programming assignment, the following workflow is required:
 
