@@ -20,6 +20,11 @@ For learning any programming language it is most important to write your own
 code. As a student of HTL Bulme, you may use the provided
 [SSH access to our sandbox server](/linux/ssh.html).
 
+## Contents
+{:.no_toc}
+* A markdown (kramdown) generated TOC.
+{:toc}
+
 ## Presentations
 The following interactive presentations provide a good starting point for
 self-study as well.
@@ -35,7 +40,7 @@ self-study as well.
 * [Functional Programming]({{ old_ps }}9_functional_programming/)
 * [Algorithms]({{ old_ps }}10_algorithms/)
 
-## Table of Contents
+## Special Topics
 {% include list.liquid all=true %}
 
 ## Literature

@@ -1,4 +1,4 @@
-# MicroPython
+# Introduction to MicroPython
 
 A great introductory book on programming the RP2040 micro controller is
 freely available on
