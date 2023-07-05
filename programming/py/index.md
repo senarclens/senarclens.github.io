@@ -40,6 +40,6 @@ self-study as well.
 
 ## Literature
 * Allen B. Downey (2015)
-  [Think Python: How to Think Like a Computer Scientist](https://amzn.to/3O1TKqW)
+  [*Think Python: How to Think Like a Computer Scientist*](https://amzn.to/3O1TKqW)
 * Mark Pilgrim (2009)
-  [Dive Into Python 3](https://amzn.to/46zoxCq)
+  [*Dive Into Python 3*](https://amzn.to/46zoxCq)

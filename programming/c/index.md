@@ -36,4 +36,4 @@ self-study as well.
 
 ## Literature
 * Jens Gustedt (2019)
-  [Modern C](https://amzn.to/3JPx5KT)
+  *[Modern C](https://amzn.to/3JPx5KT)*
