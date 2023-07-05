@@ -1,13 +1,8 @@
 # Introduction to wxPython
 
-In order to install the required software, make sure that
-`pip` (a tool for installing and managing Python packages) is available
-
-```shell
-sudo apt install python3-pip
-```
-
-Once `pip` is available, install the required dependencies via
+Ensure you have a working
+[installation of `pip`](../installation.html). Then run
+install the required dependencies via
 
 ```shell
 pip install --upgrade --user wxpython
