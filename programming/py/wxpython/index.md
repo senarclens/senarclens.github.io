@@ -1,8 +1,8 @@
 # Introduction to wxPython
 
 Ensure you have a working
-[installation of `pip`](../installation.html). Then run
-install the required dependencies via
+[installation of `pip`](../installation.html).
+Then install the required dependencies via
 
 ```shell
 pip install --upgrade --user wxpython
