@@ -10,7 +10,7 @@ To get started, I recommend working through the official
 If you prefer a book, you might want to get Allen B. Downey's
 [Think Python 2e](https://greenteapress.com/wp/think-python-2e/) **textbook**.
 It is available online, free of charge, or can bought in any decent bookshop
-(e.g. on [Amazon](https://amzn.to/3JPx5KT)).
+(e.g. on [Amazon](https://amzn.to/3O1TKqW)).
 
 If you prefer watching **video tutorials** rather than working through a book,
 have a look at
@@ -37,3 +37,9 @@ self-study as well.
 
 ## Table of Contents
 {% include list.liquid all=true %}
+
+## Literature
+* Allen B. Downey (2015)
+  [Think Python: How to Think Like a Computer Scientist](https://amzn.to/3O1TKqW)
+* Mark Pilgrim (2009)
+  [Dive Into Python 3](https://amzn.to/46zoxCq)

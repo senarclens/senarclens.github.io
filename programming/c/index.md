@@ -33,3 +33,7 @@ self-study as well.
 * [Function Pointers]({{ presentations }}function_pointers/)
 * [Unit Testing]({{ presentations }}unit_testing/)
 * [Data Structures and Algorithms in C - Introduction]({{ presentations }}algorithms/introduction_to_algorithms/)
+
+## Literature
+* Jens Gustedt (2019)
+  [Modern C](https://amzn.to/3JPx5KT)

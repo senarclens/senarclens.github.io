@@ -32,3 +32,11 @@ self-study as well.
 
 ## Special Topics
 {% include list.liquid all=true %}
+
+## Literature
+* Bjarne Stroustrup (2014)
+  [*Programming: Principles and Practice Using C++*](https://amzn.to/3NH7lCz)
+* Bjarne Stroustrup (2022)
+  [Tour of C++](https://amzn.to/3CXM56D)
+* Scott Meyers (2014)
+  [Effective Modern C++: 42 Specific Ways to Improve Your Use of C++11 and C++14](https://amzn.to/46xs6cv)
