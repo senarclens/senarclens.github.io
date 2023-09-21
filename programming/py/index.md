@@ -1,5 +1,6 @@
 # Introduction to Programming in Python
 
+{% assign presentations = "https://study.find-santa.eu/presentations/py/" %}
 {% assign old_ps = "https://www.senarclens.eu/~gerald/presentations/cms1/" %}
 
 Make sure you have `python` and all required packages installed.
@@ -29,7 +30,7 @@ code. As a student of HTL Bulme, you may use the provided
 The following interactive presentations provide a good starting point for
 self-study as well.
 
-* [Introduction]({{ old_ps }}1_intro/)
+* [Introduction]({{ presentations }}introduction/)
 * [Hello World]({{ old_ps }}2_hello_world/)
 * [Strings]({{ old_ps }}3_strings/)
 * [Functions]({{ old_ps }}4_functions/)
