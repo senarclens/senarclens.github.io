@@ -32,7 +32,7 @@ self-study as well.
 
 * [Introduction]({{ presentations }}introduction/)
 * [Hello World]({{ presentations }}hello_world/)
-* [Strings]({{ old_ps }}3_strings/)
+* [Strings]({{ presentations }}strings/)
 * [Functions]({{ old_ps }}4_functions/)
 * [Data]({{ old_ps }}5_data/)
 * [Documentation]({{ old_ps }}6_documentation/)
