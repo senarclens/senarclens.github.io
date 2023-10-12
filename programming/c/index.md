@@ -16,6 +16,9 @@ For learning any programming language it is most important to write your own
 code. As a student of HTL Bulme, you may use the provided
 [SSH access to our sandbox server](/linux/ssh.html).
 
+C language reference documentation can be found at
+[devdocs.io](https://devdocs.io/c/).
+
 ## Presentations
 The following interactive presentations provide a good starting point for
 self-study as well.

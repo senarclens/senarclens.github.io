@@ -21,6 +21,9 @@ For learning any programming language it is most important to write your own
 code. As a student of HTL Bulme, you may use the provided
 [SSH access to our sandbox server](/linux/ssh.html).
 
+Python reference documentation can be found at
+[docs.python.org](https://docs.python.org/3/).
+
 ## Contents
 {:.no_toc}
 * A markdown (kramdown) generated TOC.
