@@ -24,7 +24,7 @@ The following interactive presentations provide a good starting point for
 self-study as well.
 
 * [Introduction to Programming]({{ presentations }}../introduction_to_programming/)
-* [Programming in C]({{ presentations }}introduction/)
+* [Programming in C - Introduction]({{ presentations }}introduction/)
 * [Fast Track to C Syntax for Programmers]({{ presentations }}fast_track/)
 * [Arrays]({{ presentations }}arrays/)
 * [Working with Text]({{ presentations }}strings/)

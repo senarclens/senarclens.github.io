@@ -30,7 +30,7 @@ The following interactive presentations provide a good starting point for
 self-study as well.
 
 * [Introduction to Programming]({{ presentations }}../introduction_to_programming/)
-* [Programming in C++]({{ presentations }}introduction/)
+* [Programming in C++ - Introduction]({{ presentations }}introduction/)
 * [Fast Track to C++ Syntax for (C) Programmers]({{ presentations }}fast_track/)
 * [Standard Library - Containers]({{ presentations }}standard_library/containers/)
 * [OOP - Structs (Composite Data Types)]({{ presentations }}oop/structs/)
