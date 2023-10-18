@@ -33,7 +33,7 @@ Python reference documentation can be found at
 The following interactive presentations provide a good starting point for
 self-study as well.
 
-* [Introduction]({{ presentations }}introduction/)
+* [Introduction]({{ presentations }}../introduction_to_programming/)
 * [Hello World]({{ presentations }}hello_world/)
 * [Strings]({{ presentations }}strings/)
 * [Functions]({{ old_ps }}4_functions/)

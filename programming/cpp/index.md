@@ -29,8 +29,9 @@ C++ reference documentation can be found at
 The following interactive presentations provide a good starting point for
 self-study as well.
 
-* [Introduction]({{ presentations }}introduction/)
-* [Fast Track to C Syntax for Programmers]({{ presentations }}fast_track/)
+* [Introduction to Programming]({{ presentations }}../introduction_to_programming/)
+* [Programming in C++]({{ presentations }}introduction/)
+* [Fast Track to C++ Syntax for (C) Programmers]({{ presentations }}fast_track/)
 * [Standard Library - Containers]({{ presentations }}standard_library/containers/)
 * [OOP - Structs (Composite Data Types)]({{ presentations }}oop/structs/)
 * [OOP - Classes and Encapsulation]({{ presentations }}oop/classes/)
