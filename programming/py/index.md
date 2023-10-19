@@ -36,7 +36,7 @@ self-study as well.
 * [Introduction]({{ presentations }}../introduction_to_programming/)
 * [Hello World]({{ presentations }}hello_world/)
 * [Strings]({{ presentations }}strings/)
-* [Functions]({{ old_ps }}4_functions/)
+* [Functions]({{ presentations }}functions/)
 * [Data]({{ old_ps }}5_data/)
 * [Documentation]({{ old_ps }}6_documentation/)
 * [Basic OOP]({{ old_ps }}7_basic_classes/)
