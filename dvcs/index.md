@@ -35,6 +35,10 @@ A great overview of the structure of git workflows and their associated
 commands is available as
 [cheat sheet](https://ndpsoftware.com/git-cheatsheet.html).
 
+To understand and practice branching with git,
+[https://learngitbranching.js.org/](https://learngitbranching.js.org/)
+offers an interactive tutorial.
+
 ## Generate and Upload SSH-key
 
 `ssh-keygen -t ed25519  # omitting the type would generate an RSA key`
