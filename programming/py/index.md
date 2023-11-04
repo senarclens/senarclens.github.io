@@ -37,7 +37,7 @@ self-study as well.
 * [Hello World]({{ presentations }}hello_world/)
 * [Strings]({{ presentations }}strings/)
 * [Functions]({{ presentations }}functions/)
-* [Data]({{ old_ps }}5_data/)
+* [Container Data Types]({{ presentations }}containers/)
 * [Documentation]({{ old_ps }}6_documentation/)
 * [Basic OOP]({{ old_ps }}7_basic_classes/)
 * [Testing]({{ old_ps }}8_testing/)
