@@ -16,6 +16,14 @@ to install git and two different GUI front-ends. If you're on Windows,
 download `git` from [git-scm.com](https://git-scm.com/download/win) (a
 portable edition is available).
 
+## Basic Configuration
+```shell
+git config --global user.name "Your Name"
+git config --global user.email "you@your.provider.eu"
+git config --global core.editor $YOUR_FAVORITE_EDITOR
+git config --global -e  # show/ edit config file if desired
+```
+
 ## Selected Commands
 
 | Command | Explanation |
