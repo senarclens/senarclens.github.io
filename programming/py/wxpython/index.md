@@ -5,6 +5,12 @@ Ensure you have a working
 Then install the required dependencies via
 
 ```shell
+sudo apt install python3-wxgtk4.0
+```
+
+If you are not using a Debian-based Linux, you may instead run
+
+```shell
 pip install --upgrade --user wxpython
 ```
 
