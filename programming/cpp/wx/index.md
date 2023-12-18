@@ -18,7 +18,10 @@ a more liberal version of the LGPL (allowing distribution without the source
 code). It is very
 [actively developed]({{ gh }}/pulse/monthly) and maintained and has good
 support for all common programming environments. The source code is available
-on the project's [Github page]({{ gh }}).
+on the project's [Github page]({{ gh }}). Reference applications built with
+wxWidgets include
+[Audacity](https://github.com/audacity/audacity) and
+[Code::Blocks](https://www.codeblocks.org/).
 
 To get started, install the required dependencies
 
