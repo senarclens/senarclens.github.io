@@ -13,3 +13,5 @@ add presentations
 
 To get started, I recommend working through the interactive tutorials on
 [freeCodeCamp](https://www.freecodecamp.org/).
+
+{% include list.liquid all=true %}
