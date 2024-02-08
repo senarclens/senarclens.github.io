@@ -51,6 +51,7 @@ sudo pip3 install packagename
 | `ln -s` | make (soft) links between files |
 | `ls -lahR` | list directory contents |
 | `man` | an interface to the on-line reference manuals |
+| `mkdir [dir]` | make directories |
 | `mv` | move (rename) files |
 | `pwd` | print name of current/working directory |
 | `rm -r` | (recursively) remove files or directories |
