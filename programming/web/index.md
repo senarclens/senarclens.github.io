@@ -1,5 +1,7 @@
 # Introduction to Web Programming
 
+1. [Web development with Python](../py/web/)
+
 {% comment %}
 {% assign presentations = "https://study.find-santa.eu/presentations/web/" %}
 
