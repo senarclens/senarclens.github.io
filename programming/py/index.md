@@ -34,7 +34,7 @@ The following interactive presentations provide a good starting point for
 self-study as well.
 
 * [Introduction]({{ presentations }}../introduction_to_programming/)
-* [Hello World]({{ presentations }}hello_world/)
+* [Hello World]({{ presentations }}introduction/)
 * [Strings]({{ presentations }}strings/)
 * [Functions]({{ presentations }}functions/)
 * [Container Data Types]({{ presentations }}containers/)
