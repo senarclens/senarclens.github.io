@@ -73,11 +73,18 @@ You binary can then be found in the above created `build` directory.
 
 ## wxWidgets Example Programs
 There are a series of high quality examples available directly in the
-[wxWidgets documentation](https://docs.wxwidgets.org/3.0/page_samples.html).
+[wxWidgets documentation](https://docs.wxwidgets.org/3.2/page_samples.html).
 These examples can be installed via
 
 ```shell
-sudo apt install wx3.0-examples
+sudo apt install wx3.2-examples  # recommended way
+```
+
+or by cloning wxWidgets and entering the `samples` directory
+
+```shell
+git clone git@github.com:wxWidgets/wxWidgets.git
+cd wxWidgets/samples
 ```
 
 In addition, you can find tested, working example code in the
