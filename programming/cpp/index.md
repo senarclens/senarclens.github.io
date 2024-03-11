@@ -32,6 +32,7 @@ self-study as well.
 * [Introduction to Programming]({{ presentations }}../introduction_to_programming/)
 * [Programming in C++ - Introduction]({{ presentations }}introduction/)
 * [Fast Track to C++ Syntax for (C) Programmers]({{ presentations }}fast_track/)
+* [Programming in C++ - C-Arrays]({{ presentations }}arrays/)
 * [Standard Library - Containers]({{ presentations }}standard_library/containers/)
 * [OOP - Structs (Composite Data Types)]({{ presentations }}oop/structs/)
 * [OOP - Classes and Encapsulation]({{ presentations }}oop/classes/)
