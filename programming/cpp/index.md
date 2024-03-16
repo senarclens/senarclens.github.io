@@ -2,9 +2,14 @@
 
 {% assign presentations = "https://study.find-santa.eu/presentations/cpp/" %}
 
-To get started, I recommend working through the free
+To get started, I recommend working through the free, community based
+[Introduction to C++](https://cpp-lang.net/learn/course/) online tutorial.
+
+Since the above tutorial is rather new and not yet complete, you may also
+want to consult the older
 [Learn C++](https://www.learncpp.com/) online tutorial. Note that there
 are a lot of advertisements if you aren't using an ad blocker.
+
 If you want to invest in an excellent C++ book, I recommend buying
 [Programming: Principles and Practice Using C++](https://amzn.to/40EaSX2)
 by Bjarne Stroustrup, the designer and original creator of C++.
@@ -35,6 +40,8 @@ self-study as well.
 * [Programming in C++ - C-Arrays]({{ presentations }}arrays/)
 * [Programming in C++ - C-Strings]({{ presentations }}c-strings/)
 * [Programming in C++ - Pointers]({{ presentations }}pointers/)
+<!-- insert dyn. mem. mgmt. presentation here -->
+* [Programming in C++ - Working with Multiple Files]({{ presentations }}multiple_files/)
 * [Standard Library - Containers]({{ presentations }}standard_library/containers/)
 * [OOP - Structs (Composite Data Types)]({{ presentations }}oop/structs/)
 * [OOP - Classes and Encapsulation]({{ presentations }}oop/classes/)
