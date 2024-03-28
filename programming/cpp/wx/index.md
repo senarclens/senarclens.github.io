@@ -26,7 +26,7 @@ wxWidgets include
 To get started, install the required dependencies
 
 ```
-sudo apt install libwxgtk3.0-gtk3-dev
+sudo apt install libwxgtk3.2-dev
 ```
 
 After the installation, follow the official
