@@ -38,9 +38,11 @@ self-study as well.
 * [Strings]({{ presentations }}strings/)
 * [Functions]({{ presentations }}functions/)
 * [Container Data Types]({{ presentations }}containers/)
-* [Documentation]({{ old_ps }}6_documentation/)
+* [Modules and Packages]({{ presentations }}modules/)
+* [Documentation]({{ presentations }}documentation/)
 * [Basic OOP]({{ old_ps }}7_basic_classes/)
-* [Testing]({{ old_ps }}8_testing/)
+* [Unit Testing]({{ presentations }}unit_testing/)
+<!-- * [Testing]({{ old_ps }}8_testing/) -->
 * [Functional Programming]({{ old_ps }}9_functional_programming/)
 * [Algorithms]({{ old_ps }}10_algorithms/)
 
