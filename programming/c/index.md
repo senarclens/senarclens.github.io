@@ -31,7 +31,7 @@ self-study as well.
 * [Typedef and Structs - Composite Data Types]({{ presentations }}structs/)
 * [Pointers]({{ presentations }}pointers/)
 * [Working with Multiple Files]({{ presentations }}multiple_files/)
-* [Dynamic Memory Management]({{ presentations }}free_store/)
+* [Free Store - Dynamic Memory Management]({{ presentations }}free_store/)
 * [File I/O]({{ presentations }}file_io/)
 * [Commandline Arguments]({{ presentations }}cli/)
 * [Function Pointers]({{ presentations }}function_pointers/)
