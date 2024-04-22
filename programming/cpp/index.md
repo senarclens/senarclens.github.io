@@ -39,13 +39,12 @@ self-study as well.
 * [Fast Track to C++ Syntax for (C) Programmers]({{ presentations }}fast_track/)
 * [Programming in C++ - C-Arrays]({{ presentations }}arrays/)
 * [Programming in C++ - C-Strings]({{ presentations }}c-strings/)
+* [Programming in C++ - C-Structs]({{ presentations }}c-structs/)
 * [Programming in C++ - Pointers]({{ presentations }}pointers/)
-<!-- maybe insert c structs presentation here (look at CPP Structs presentation
-and decide whether that can be used -->
 * [Programming in C++ - Free Store]({{ presentations }}free_store/)
 * [Programming in C++ - Working with Multiple Files]({{ presentations }}multiple_files/)
-* [OOP - Structs (Composite Data Types)]({{ presentations }}oop/structs/)
 * [Standard Library - Containers]({{ presentations }}standard_library/containers/)
+* [OOP - Structs (Composite Data Types)]({{ presentations }}oop/structs/)
 * [OOP - Classes and Encapsulation]({{ presentations }}oop/classes/)
 * [Operator Overloading]({{ presentations }}operator_overloading/)
 * [Unit Testing (Catch2)]({{ presentations }}unit_testing_catch2/)
