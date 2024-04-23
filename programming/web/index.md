@@ -6,7 +6,7 @@ Another great resource for learning and reference documentation is MDN.
 MDN offers courses and tutorials on
 [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML),
 [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) and
-[JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript).
 
 {% include list.liquid all=true %}
 
