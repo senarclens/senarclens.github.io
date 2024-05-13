@@ -20,6 +20,9 @@ a series of valuable documents that are available in the
 
 ## Tools
 
+<a href="https://penpot.app/">Penpot</a> is an open source SaaS design tool
+that facilitates collaboration.
+
 For creating wireframes,
 [Pencil](https://pencil.evolus.vn/) is worth considering. It is open source,
 uses gzipped XML files and is simple, yet powerful (but has some rough edges).
