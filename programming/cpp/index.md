@@ -43,6 +43,7 @@ self-study as well.
 * [Programming in C++ - Pointers]({{ presentations }}pointers/)
 * [Programming in C++ - Free Store]({{ presentations }}free_store/)
 * [Programming in C++ - Working with Multiple Files]({{ presentations }}multiple_files/)
+* [Programming in C++ - File I/O]({{ presentations }}file_io/)
 * [Standard Library - Containers]({{ presentations }}standard_library/containers/)
 * [OOP - Structs (Composite Data Types)]({{ presentations }}oop/structs/)
 * [OOP - Classes and Encapsulation]({{ presentations }}oop/classes/)
