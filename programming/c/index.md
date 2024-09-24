@@ -26,6 +26,7 @@ self-study as well.
 * [Introduction to Programming]({{ presentations }}../introduction_to_programming/)
 * [Programming in C - Introduction]({{ presentations }}introduction/)
 * [Fast Track to C Syntax for Programmers]({{ presentations }}fast_track/)
+* [Functions]({{ presentations }}functions/)
 * [Arrays]({{ presentations }}arrays/)
 * [Working with Text]({{ presentations }}strings/)
 * [Typedef and Structs - Composite Data Types]({{ presentations }}structs/)
