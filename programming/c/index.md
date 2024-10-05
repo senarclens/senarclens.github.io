@@ -37,7 +37,7 @@ self-study as well.
 * [Commandline Arguments]({{ presentations }}cli/)
 * [Function Pointers]({{ presentations }}function_pointers/)
 * [Unit Testing]({{ presentations }}unit_testing/)
-* [Data Structures and Algorithms in C - Introduction]({{ presentations }}algorithms/introduction_to_algorithms/)
+* [Data Structures and Algorithms - Introduction]({{ presentations }}algorithms/intro/)
 
 ## Literature
 * Jens Gustedt (2019)
