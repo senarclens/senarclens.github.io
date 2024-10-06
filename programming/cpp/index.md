@@ -53,6 +53,7 @@ self-study as well.
 * [Operator Overloading]({{ presentations }}operator_overloading/)
 * [Unit Testing (Catch2)]({{ presentations }}unit_testing_catch2/)
 * [Unit Testing (Google Test)]({{ presentations }}unit_testing_gtest/)
+* [Data Structures and Algorithms - Introduction]({{ presentations }}algorithms/intro/)
 
 ## Special Topics
 {% include list.liquid all=true %}
