@@ -40,7 +40,7 @@ self-study as well.
 * [Container Data Types]({{ presentations }}containers/)
 * [Modules and Packages]({{ presentations }}modules/)
 * [Documentation]({{ presentations }}documentation/)
-* [Basic OOP]({{ old_ps }}7_basic_classes/)
+* [Creating Your Own Datatypes]({{ presentations }}oop/overview/)
 * [Unit Testing]({{ presentations }}unit_testing/)
 <!-- * [Testing]({{ old_ps }}8_testing/) -->
 * [Functional Programming]({{ old_ps }}9_functional_programming/)
