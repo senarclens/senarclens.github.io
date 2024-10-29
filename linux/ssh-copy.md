@@ -1,4 +1,11 @@
-# Copying Files with SSH (`scp` and `sshfs`)
+# Copying Files with SSH
+
+{:.no_toc}
+* A markdown (kramdown) generated TOC.
+{:toc}
+
+
+## `scp`
 
 Files can be copied securely back and forth between computers using the `scp`
 command.
@@ -38,8 +45,9 @@ required. To copy the local folder `images/` to the existing folder
 scp -r images user@host.example.com:public_html
 ```
 
-## SSHFS
-SSHFS allows to mount a remote filesystem using SSH's SFTP subsystem.
+
+## `sshfs`
+`sshfs` allows to mount a remote filesystem using SSH's SFTP subsystem.
 This means you can access the files the same way you can access local files.
 
 ```
@@ -64,3 +72,13 @@ connection to sandbox created above, type
 ```
 umount sandbox
 ```
+
+
+## Configure Dolphin to Interact with Files on an SSH Server
+If you prefer working with a GUI, the dolphin file manager has
+excellent support for interacting with files on an SSH server.
+
+I've prepared a
+[video tutorial](https://www.youtube.com/watch?v=pvOQsyf3oxs)
+explaining how to configure dolphin to interact with files on
+an SSH server.
