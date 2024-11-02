@@ -42,8 +42,7 @@ self-study as well.
 * [Documentation]({{ presentations }}documentation/)
 * [Creating Your Own Datatypes]({{ presentations }}oop/overview/)
 * [Unit Testing]({{ presentations }}unit_testing/)
-<!-- * [Testing]({{ old_ps }}8_testing/) -->
-* [Functional Programming]({{ old_ps }}9_functional_programming/)
+* [Functional Programming]({{ presentations }}fp/overview)
 * [Algorithms]({{ old_ps }}10_algorithms/)
 
 ## Special Topics
