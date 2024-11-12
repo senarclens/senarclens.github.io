@@ -8,7 +8,7 @@ When accepting a programming assignment, the following workflow is required:
 * clone the repository to your computer (you might have to set up
   [ssh authentication](/linux/ssh-pka.html) first and upload your public key
   to the classroom platform)  
-  `git clone $YOUR_REPO_URL`
+  `git clone $YOUR_REPO_URL`  
   for example  
   `git clone git@github.com:HTL-Bulme/exercise-4-containers-yourname.git`
 * after the above succeeds, you'll have a new directory that you have to
