@@ -45,9 +45,10 @@ The key's randomart image is:
 +----[SHA256]-----+
 ```
 
-Once the keypair is created, you can start using it.
+Once the keypair is created, you can start using it. It can be found in
+`~/.ssh/`.
 
-## Installing a Public Key on a Server
+## Installing a Public Key on an SSH Server
 To move your public key to an ssh server, use the `ssh-copy-id` tool. For
 example, after having [configured your connection](ssh-config.md), type
 
@@ -64,6 +65,44 @@ ssh sandbox
 ```
 you'll have to enter your key's password instead of your user password.
 This improved overall security, but didn't make logging in easier.
+
+
+## Enabling PKA for Interacting with Git Hosting Services
+To be able to clone, push and pull changes to and from git hosting services,
+you have to copy your public key to their web interface. Show the contents of
+the public key file, eg. via
+
+```shell
+cat ~/.ssh/id_ed25519.pub
+```
+
+The content of the public key file should look like
+
+```
+ssh-ed25519 AAAdm4@zaC1lZDI1NTE5AAdk3JuQYk41tPYuhldJs3+CKqYWi+B1vrkpqAFk61AujxT6 you@computername
+```
+
+Copy this public key exactly from `ssh-ed...` up to and including the last
+character of your `computername`. This public key can then be added to your
+git hosting service.
+
+### GitHub
+Click on your user's avatar in the right top corner.
+Then click `Settings->SSH and GPG keys->New SSH key`. Enter any title of your
+choice describing the key. `Key type` must be set to "Authentication Key".
+Copy your public key to the "Key" field and then click `Add SSH key`.
+
+### GitLab
+Click on your user's avatar. For the avatar to be visible, the window has to
+be large enough to show the left side bar. The avatar is located in the top
+right corner of that sidebar. Then click on
+`Preferences->SSH Keys->Add new key`.
+Copy your public key to the "Key" field and enter any title of your
+choice describing the key. The "Usage type" can be set to
+"Authentication & Signing" or "Authentication". If you decide to set an
+"Expiration date" please make sure to set it long enough in the future.
+Finally, save your key by clicking on `Add Key`.
+
 
 ## Using `ssh-agent`
 The `ssh-agent` tool holds your private keys. You can store
