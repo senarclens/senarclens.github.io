@@ -28,15 +28,16 @@ git config --global -e  # show/ edit config file if desired
 
 | Command | Explanation |
 | ------- | ---------------------------------|
-| `init` | create an empty Git repository or reinitialize an existing one |
+| `clone` | Clone a repository into a new directory |
 | `status` | Show the working tree status |
 | `add` | Add file contents to the index |
 | `commit` | Record changes to the repository |
 | `push` | Update remote refs along with associated objects |
 | `diff` | Show changes between commits, commit and working tree, etc |
-| `log` | Show commit logs |
+| `log [-p]` | Show commit logs |
 | `pull` | Fetch from and integrate with another repository or a local branch |
-| `clone` | Clone a repository into a new directory |
+| `init` | Create a new local Git repository |
+| `blame` | Show what revision and author last modified each line of a file |
 
 ## Git Cheat Sheet
 A great overview of the structure of git workflows and their associated
