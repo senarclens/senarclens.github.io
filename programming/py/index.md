@@ -1,7 +1,6 @@
 # Introduction to Programming in Python
 
 {% assign presentations = "https://study.find-santa.eu/presentations/py/" %}
-{% assign old_ps = "https://www.senarclens.eu/~gerald/presentations/cms1/" %}
 
 Make sure you have `python` and all required packages installed.
 Consult the [notes on installing Python](installation.html) if needed.
@@ -42,8 +41,9 @@ self-study as well.
 * [Documentation]({{ presentations }}documentation/)
 * [Creating Your Own Datatypes]({{ presentations }}oop/overview/)
 * [Unit Testing]({{ presentations }}unit_testing/)
-* [Functional Programming]({{ presentations }}fp/overview)
-* [Algorithms]({{ old_ps }}10_algorithms/)
+* [Functional Programming]({{ presentations }}fp/overview/)
+* [Algorithms]({{ presentations }}algorithms/intro/)
+* [Data Structures]({{ presentations }}ds/intro/)
 
 ## Special Topics
 {% include list.liquid all=true %}
