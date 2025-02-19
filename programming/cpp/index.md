@@ -51,6 +51,7 @@ self-study as well.
 * [OOP - Structs (Composite Data Types)]({{ presentations }}oop/structs/)
 * [OOP - Classes and Encapsulation]({{ presentations }}oop/classes/)
 * [Operator Overloading]({{ presentations }}operator_overloading/)
+* [Enums and Scoped Enums]({{ presentations }}enums/)
 * [OOP - Overloading Operators for User Defined Types]({{ presentations }}oop/operator_overloading/)
 * [Unit Testing (Catch2)]({{ presentations }}unit_testing_catch2/)
 * [Unit Testing (Google Test)]({{ presentations }}unit_testing_gtest/)

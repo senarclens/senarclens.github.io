@@ -33,6 +33,7 @@ self-study as well.
 * [Pointers]({{ presentations }}pointers/)
 * [Free Store - Dynamic Memory Management]({{ presentations }}free_store/)
 * [Working with Multiple Files]({{ presentations }}multiple_files/)
+* [Enums]({{ presentations }}enums/)
 * [File I/O]({{ presentations }}file_io/)
 * [Commandline Arguments]({{ presentations }}cli/)
 * [Function Pointers]({{ presentations }}function_pointers/)
