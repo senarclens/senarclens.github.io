@@ -9,6 +9,12 @@ to use one of the licenses that is approved by either
 [Free Software Foundation (FSF)](https://www.fsf.org/) or
 [Open Source Initiative (OSI)](https://opensource.org/).
 
+The term free refers to freedom, not price. Free software licenses
+grant four essential freedoms: the freedom use, the freedom to study,
+the freedom to share and the freedom to improve free software.
+An excellent summary of these freedoms is available by the
+the [Free Software Foundation Europe (FSFE)](https://fsfe.org/freesoftware/freesoftware.html).
+
 The Software Package Data Exchange (SPDX) provides an excellent overview
 in their [SPDX License List](https://spdx.org/licenses/). The site provides
 each of the licenses' full name, identifier, full text and whether or not they

@@ -1,4 +1,4 @@
-# Linux (KDE Neon)
+# Linux (Debian Based)
 {::options toc_levels="2..6" /}
 
 ## Contents

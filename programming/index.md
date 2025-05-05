@@ -1,4 +1,4 @@
-# Programming Notes
+# Programming
 
 ## Programming Challenges
 The best way to learn programming is to write code. The following sites
