@@ -57,6 +57,10 @@ self-study as well.
 * [Unit Testing (Google Test)]({{ presentations }}unit_testing_gtest/)
 * [Exceptions]({{ presentations }}exceptions/)
 
+## Recommended Style Guides
+* [C++ Core Guidelines](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines)
+* [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html)
+
 ## Special Topics
 {% include list.liquid all=true %}
 
