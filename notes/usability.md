@@ -17,6 +17,9 @@ Web Accessibility Initiative (WAI). They published the
 Accessible Rich Internet Applications Suite (ARIA). WAI-ARIA provide
 a series of valuable documents that are available in the
 [WAI-ARIA Overview](https://www.w3.org/WAI/standards-guidelines/aria/).
+In addition, the
+[Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/WAI/standards-guidelines/wcag/)
+explain how to make web content more accessible to people with disabilities.
 
 ## Tools
 
