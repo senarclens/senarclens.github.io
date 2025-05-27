@@ -56,6 +56,7 @@ self-study as well.
 * [Unit Testing (Catch2)]({{ presentations }}unit_testing_catch2/)
 * [Unit Testing (Google Test)]({{ presentations }}unit_testing_gtest/)
 * [Exceptions]({{ presentations }}exceptions/)
+* [FP - Overview, Recursion & Memoization]({{ presentations }}fp/recursion/)
 
 ## Recommended Style Guides
 * [C++ Core Guidelines](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines)
