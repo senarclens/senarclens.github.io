@@ -27,3 +27,8 @@ For installing Linux on top of an M2 MacOS host,
 There are many great Linux distributions. To get started, I recommend
 [Debian](https://www.debian.org/CD/live/)
 for installation in a virtual environment.
+
+## Native Installation
+To install Linux on hardware, you need installation media. Once you have
+an iso image, flash the image to a USB drive. This can be done, for example,
+with [Balena Etcher](https://etcher.balena.io/).
