@@ -15,6 +15,14 @@ MDN offers courses and tutorials on
 
 * [2D breakout game using pure JavaScript](https://developer.mozilla.org/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript)
 
+
+## Template
+
+You may download and use the following HTML template that demonstrates how
+to include shared script files, styles and a favicon in new pages:
+[HTML.html](https://raw.githubusercontent.com/senarclens/xdg_templates/refs/heads/master/Templates/HTML.html).
+
+
 ## Web Frameworks
 
 * [Web development with Python](../py/web/)
