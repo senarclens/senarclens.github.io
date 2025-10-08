@@ -14,7 +14,7 @@ the server and where to deploy your files (usually `/var/www/html`).
 
 ## `mod_userdir`
 The apache server allows each user on a server to host their individual web
-data at, eg. https://sandbox.bulme.at/~username/. By
+data at, eg. https://sandbox.bulme.at/`~username`/. By
 default, the data is hosted from the `public_html` subdirectory within
 the user's home. If `mod_userdir` is enabled, users may deploy their content
 by creating this directory and adjusting the permissions so that the web
