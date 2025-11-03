@@ -51,7 +51,7 @@ sudo pip3 install packagename
 | `ln -s` | make (soft) links between files |
 | `ls -lahR` | list directory contents |
 | `man` | an interface to the on-line reference manuals |
-| `mkdir [dir]` | make directories |
+| `mkdir [-p] [dir]` | make directories |
 | `mv` | move (rename) files |
 | `pwd` | print name of current/working directory |
 | `rm -r` | (recursively) remove files or directories |
@@ -63,7 +63,12 @@ An excellent tool for explaining complex linux commands is
 [explainshell.com](https://explainshell.com/).
 
 ## Shell Variables
-Examples include `$HOME`, `$HOSTNAME` and `$USER`.
+Examples include `$HOME`, `$HOSTNAME`, `$PATH`, `$PS1` and `$USER`.
+You may use `echo` to print a variable's value to the terminal. Eg.:
+
+```shell
+echo $HOME
+```
 
 ## Shortcuts
 
@@ -86,7 +91,9 @@ Shortcut | Action
 --- | ---
 `↑` | move up in history
 `↓` | move down in history
+`Ctrl+a` | move cursor to beginning of line
 `Ctrl+d` | end of input
+`Ctrl+e` | move cursor to end of line
 `Ctrl+l` | clear the terminal screen
 `Ctrl+r` | reverse incremental search through history
 `Esc-.`, `Alt+.` | recall the last argument of the previous command
