@@ -53,7 +53,7 @@ self-study as well.
 * [Operator Overloading]({{ presentations }}operator_overloading/)
 * [Enums and Scoped Enums]({{ presentations }}enums/)
 * [OOP - Overloading Operators for User Defined Types]({{ presentations }}oop/operator_overloading/)
-* [OOP - inheritance]({{ presentations }}oop/inheritance/)
+* [OOP - Inheritance and Dynamic Polymorphism]({{ presentations }}oop/inheritance/)
 * [Unit Testing (Catch2)]({{ presentations }}unit_testing_catch2/)
 * [Unit Testing (Google Test)]({{ presentations }}unit_testing_gtest/)
 * [Exceptions]({{ presentations }}exceptions/)
