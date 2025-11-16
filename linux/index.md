@@ -8,15 +8,35 @@
 {:toc}
 
 ## Installing Software
-You can use either of the graphical package managers. Depending on the configuration of your Debian-based Linux system, there may be `muon`, `plasma-discover`, `synaptic` or any other GUI tool installed. On the command-line you can use `apt` - the advanced package tool. In order to be able to change the system, you need to run the command as `root` user. In order to do so, preprend your installation commands with `sudo`.
+You can use either of the graphical package managers. Depending on the
+configuration of your Debian-based Linux system, there may be `muon`,
+`plasma-discover`, `synaptic` or any other GUI tool installed. On the
+command-line you can use `apt` - the advanced package tool. In order to be able
+to change the system, you need to run the command as `root` user. In order to
+do so, preprend your installation commands with `sudo`.
 
-If you want to install all the mentioned GUI package managers with a shell command, type
+To update the list of available packages to the newest version, type
+
+```shell
+sudo apt update
+```
+
+To update all installed packages to the newest version available, one needs
+to perform an `upgrade`.
+
+```shell
+sudo apt upgrade
+```
+
+If you want to install all the mentioned GUI package managers with a shell
+command, type
 
 ```
 sudo apt install muon plasma-discover synaptic
 ```
 
-To install an excellent integrated development environment as well as its Python language support, run
+To install an excellent integrated development environment as well as its
+Python language support, run
 
 ```
 sudo apt install kdevelop kdevelop-python
