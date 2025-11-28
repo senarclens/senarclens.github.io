@@ -41,9 +41,25 @@ deactivate
 
 ## Installing Packages
 Once a virtual environment is activated (`. venv/bin/activate`) packages
-can be installed via
+can be installed and upgrade with pip.
 
-```
-pip install $PACKAGE_NAME
+It is recommended to always use the newest version of `pip`, so you may want
+to upgrade it in your virtual environment before installing addtional
+packages.
+
+```shell
+pip install --upgrade pip
 ```
 
+Now install all the packages required
+
+```shell
+pip install $PACKAGE_NAME1 $PACKAGE_NAME2 [...]
+```
+
+If you have a text file listing all requirements (usually called
+`requirements.txt`, you can install all the packages listed there via
+
+```shell
+pip install --requirement <file>
+```
