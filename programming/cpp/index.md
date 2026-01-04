@@ -58,6 +58,7 @@ self-study as well.
 * [Unit Testing (Catch2)]({{ presentations }}unit_testing_catch2/)
 * [Unit Testing (Google Test)]({{ presentations }}unit_testing_gtest/)
 * [Exceptions]({{ presentations }}exceptions/)
+* [Auto]({{ presentations }}auto/)
 * [FP - Overview, Recursion & Memoization]({{ presentations }}fp/recursion/)
 
 ## Recommended Style Guides
