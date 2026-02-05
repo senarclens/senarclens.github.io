@@ -75,6 +75,7 @@ sudo pip3 install packagename
 | `mv` | move (rename) files |
 | `pwd` | print name of current/working directory |
 | `rm -r` | (recursively) remove files or directories |
+| `su --login` | run commands as substitute user (defaults to root) |
 | `tar zcf archive.tar.gz [file...]` | create gzip compressed archive |
 | `whatis` | display one-line manual page descriptions |
 | `whoami` | print effective userid |
