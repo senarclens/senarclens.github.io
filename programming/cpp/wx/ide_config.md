@@ -88,7 +88,8 @@ These include `emacs`, `kate`, `micro`, `neovim`, `vim`, `vscodium`
 and others (although some require plugins for this to work).
 
 Fortunately, `cmake` can be used to automatically create
-`compile_commands.json` by setting
-`set(CMAKE_EXPORT_COMPILE_COMMANDS ON)`. If this is turned on, all editors
+`compile_commands.json` via
+[`set(CMAKE_EXPORT_COMPILE_COMMANDS ON)`](https://cmake.org/cmake/help/latest/variable/CMAKE_EXPORT_COMPILE_COMMANDS.html).
+If this is turned on, all editors
 supporting `clangd` via the LSP will automatically work well with wxWidgets
 as soon as `cmake` was executed in the project.
