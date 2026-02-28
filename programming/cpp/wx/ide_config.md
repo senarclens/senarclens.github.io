@@ -55,7 +55,7 @@ presented by `wx-config --cxxflags` to it, separated by a colon (`:`). In my
 environment, this would be the appropriate command
 
 ```shell
-export CPLUS_INCLUDE_PATH=${CPLUS_INCLUDE_PATH}:/usr/include/wx-3.0:/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0
+export CPLUS_INCLUDE_PATH=${CPLUS_INCLUDE_PATH}:/usr/include/wx-3.2:/usr/lib/wx/include/gtk3-unicode-3.2
 ```
 
 However, the above only affects the current shell and is not persisted.
@@ -66,14 +66,29 @@ following to it (but make sure to set the variables `GTK3_UNICODE` and
 
 ```bash
 # add libs to CPLUS_INCLUDE_PATH if they are installed
-GTK3_UNICODE="/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0"
+GTK3_UNICODE="/usr/lib/wx/include/gtk3-unicode-3.2"
 if [ -d "${GTK3_UNICODE}" ] ; then
   CPLUS_INCLUDE_PATH="${CPLUS_INCLUDE_PATH}:${GTK3_UNICODE}"
 fi
-WX="/usr/include/wx-3.0"
+WX="/usr/include/wx-3.2"
 if [ -d "${WX}" ] ; then
   CPLUS_INCLUDE_PATH="${CPLUS_INCLUDE_PATH}:${WX}"
 fi
 export CPLUS_INCLUDE_PATH
 
 ```
+
+
+## Editors Supporting `compile_commands.json`
+If your editor supports `compile_commands.json`, this file will be used
+for automatically configuring code completion and other features for C/C++.
+Generally, editors providing Language Server Protocol (LSP) implementations
+like `clangd` will support this mechanism.
+These include `emacs`, `kate`, `micro`, `neovim`, `vim`, `vscodium`
+and others (although some require plugins for this to work).
+
+Fortunately, `cmake` can be used to automatically create
+`compile_commands.json` by setting
+`set(CMAKE_EXPORT_COMPILE_COMMANDS ON)`. If this is turned on, all editors
+supporting `clangd` via the LSP will automatically work well with wxWidgets
+as soon as `cmake` was executed in the project.
