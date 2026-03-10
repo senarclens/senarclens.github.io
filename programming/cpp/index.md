@@ -60,6 +60,7 @@ self-study as well.
 * [Exceptions]({{ presentations }}exceptions/)
 * [Auto]({{ presentations }}auto/)
 * [FP - Overview, Recursion & Memoization]({{ presentations }}fp/recursion/)
+* [Concurrency - Overview]({{ presentations }}/concurrency/overview/)
 
 ## Recommended Style Guides
 * [C++ Core Guidelines](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines)
