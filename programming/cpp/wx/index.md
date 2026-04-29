@@ -35,7 +35,7 @@ After the installation, follow the official
 To compile the example, type
 
 ```
-clang++ hello_wx.cpp `wx-config --cxxflags --libs` -o hello_wx
+clang++ hello_wx.cpp $(wx-config --cxxflags --libs) -o hello_wx
 ```
 
 Start your first GUI application by typing `./hello_wx`.
