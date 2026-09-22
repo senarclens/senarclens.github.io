@@ -98,6 +98,7 @@ echo $HOME
 Shortcut | Action
 --- | ---
 `Ctrl+Alt+t` | open konsole (terminal emulator)
+`Alt+F2` | KRunner
 
 ### Dolphin File Manager
 
@@ -105,6 +106,7 @@ Shortcut | Action
 --- | ---
 `F4` | show konsole (terminal emulator)
 `Shift+F4` | open konsole (terminal emulator)
+`Ctrl+Alt+i` | find action...
 
 ### Shell
 
