@@ -31,6 +31,7 @@ For creating wireframes,
 uses gzipped XML files and is simple, yet powerful (but has some rough edges).
 Pencil is also available as
 [portable application](https://portableapps.com/apps/graphics_pictures/pencil-project-portable)
+[OpenPencil](https://openpencil.dev/) is a more modern in-browser alternative.
 
 A possible alternative is [Inkscape](https://inkscape.org/),
 which is an open source vector graphics
